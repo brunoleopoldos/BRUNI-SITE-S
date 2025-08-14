@@ -1,5 +1,14 @@
 body {
     color:rgb(0, 255, 255);
     background:rgb(0, 0, 0);
+    margin: 4px;
+
 }  
     
+ header{ 
+    border-bottom: solid 1px rgb(23, 101, 202);
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(23, 101, 202);
+
+ }
