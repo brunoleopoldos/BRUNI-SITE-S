@@ -1,5 +1,5 @@
 body {
-    color:rgb(0, 255, 255);
+    color:rgba(112, 53, 250, 0.808);
     background:rgb(0, 0, 0);
     margin: 4px;
 
@@ -11,4 +11,11 @@ body {
     font-size: 25px;
     color: rgb(23, 101, 202);
 
+ }
+
+ section{
+    background: rgb(133, 171, 163);
+    padding-bottom: 97px;
+    padding-top: 60px;
+    display: flex;
  }
