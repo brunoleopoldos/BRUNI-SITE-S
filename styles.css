@@ -30,3 +30,11 @@ h1{
 p {font-size: 20px;
 
 }
+img {
+   height: 300px;
+}
+.imagens-videos{
+   display: flex;
+   overflow-x: auto;
+   gap: 20px;
+}
