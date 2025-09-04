@@ -1,8 +1,9 @@
 body {
-    color:rgba(112, 53, 250, 0.808);
+    color:rgb(112, 53, 250, 0.808);
     background:rgb(0, 0, 0);
     margin: 4px;
     font-family: "Festive", cursive;
+    margin-bottom: 110px;
 }  
     
  header{ 
@@ -12,8 +13,7 @@ body {
     color: rgb(23, 101, 202);
 
  }
-
- section{
+.chamada {
     background: rgb(1, 255, 221);
     padding-bottom: 97px;
     padding-top: 60px;
@@ -30,11 +30,24 @@ h1{
 p {font-size: 20px;
 
 }
-img {
-   height: 300px;
-}
 .imagens-videos{
    display: flex;
    overflow-x: auto;
    gap: 20px;
+}
+.categoria {
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-top: 55px;
+}
+.imagens-videos img {
+   opacity: 0.5;
+   height: 300px;
+}
+.imagens-videos img:hover {
+   opacity: 1.0;
+   border: 1px solid blueviolet;
+}
+.categoria h2 { 
+   color:rgb(23, 101, 202)
 }
